@@ -1,4 +1,6 @@
-function* generateRotation(spins: number){
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
+function* generateRotation(spins: number) {
   let degrees = spins * 360;
   while (degrees < 2) {
     yield degrees;
